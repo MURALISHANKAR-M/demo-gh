@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <title>Bootstrap-4</title>
+  </head>
+  <body>
+    <!-- Header -->
+
+    <div class="container">
+      <header>
+        <nav class="navbar navbar-light bg-white navbar-expand-lg">
+          <div class="container">
+            <a
+              class="h1 text-info text-decoration-none"
+              class="bolder navbar-brand text-opacity-40"
+              href="#"
+              >MAGAZINE</a
+            >
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarNav"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav ms-auto">
+                <li class="nav-item">
+                  <a class="nav-link active" href="#">NEWS</a>
+                </li>
+                <li class="nav-item"><a class="nav-link" href="#">ART</a></li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">DESIGN</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">CULTURE</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </header>
+    </div>
+    <!-- BG-Color-Slider -->
+    <div class="bg-warning py-4">
+      <div class="p-4">
+        <div id="carouselExampleDark" class="carousel carousel-dark slide">
+          <!-- <div class="carousel-indicators">
+            <button
+              type="button"
+              data-bs-target="#carouselExampleDark"
+              data-bs-slide-to="0"
+              class="active"
+              aria-current="true"
+              aria-label="Slide 1"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleDark"
+              data-bs-slide-to="1"
+              aria-label="Slide 2"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleDark"
+              data-bs-slide-to="2"
+              aria-label="Slide 3"
+            ></button>
+          </div> -->
+          <div class="container px-4">
+            <div class="carousel-inner">
+              <div class="carousel-item active" data-bs-interval="10000">
+                <div class="d-flex flex-column flex-md-row gap-5">
+                  <img
+                    src="images/1.jpg"
+                    class="d-block w-75 w-md-50 mx-auto"
+                    alt="Rock Hills"
+                  />
+                  <div>
+                    <h5>First slide label</h5>
+                    <p>
+                      Some representative placeholder content for the first
+                      slide.
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="carousel-item" data-bs-interval="2000">
+                <div class="d-flex flex-column flex-md-row gap-5">
+                  <img
+                    src="images/2.jpg"
+                    class="d-block w-75 w-md-50 mx-auto"
+                    alt="Fort"
+                  />
+                  <div>
+                    <h5>Second slide label</h5>
+                    <p>
+                      Some representative placeholder content for the second
+                      slide.
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="carousel-item">
+                <div class="d-flex flex-column flex-md-row gap-5">
+                  <img
+                    src="images/3.jpg"
+                    class="d-block w-75 w-md-50 mx-auto"
+                    alt="Top View"
+                  />
+                  <div>
+                    <h5>Third slide label</h5>
+                    <p>
+                      Some representative placeholder content for the third
+                      slide.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#carouselExampleDark"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#carouselExampleDark"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+    </div>
+    <!-- Article -->
+    <div class="container py-4">
+      <article class="article">
+        <div class="row">
+          <div class="col-12 col-lg-4 mt-4">
+            <div class="card border-0">
+              <div
+                class="bg-info p-5 w-50 w-md-25 w-lg-50 mx-auto"
+                style="border-radius: 100%"
+              >
+                <img src="images/4.jpg" class="card-img-top" alt="..." />
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">Pencil</h5>
+                <p class="card-text">
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card's content.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-12 col-lg-4 mt-4">
+            <div class="card border-0">
+              <div
+                class="bg-info p-5 w-50 w-md-25 w-lg-50 mx-auto"
+                style="border-radius: 100%"
+              >
+                <img src="images/5.jpg" class="card-img-top" alt="..." />
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">Bulb</h5>
+                <p class="card-text">
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card's content.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-12 col-lg-4 mt-4">
+            <div class="card border-0">
+              <div
+                class="bg-info p-5 w-50 w-md-25 w-lg-50 mx-auto"
+                style="border-radius: 100%"
+              >
+                <img src="images/6.jpg" class="card-img-top" alt="..." />
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">Eyes</h5>
+                <p class="card-text">
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card's content.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </article>
+    </div>
+
+    <!-- Aside -->
+    <div class="mt-4 bg-info">
+      <div class="container py-4">
+        <div class="row g-0">
+          <div class="col-lg-7 p-4 ps-md-0 bg-info">
+            <h1 class="text-light">BEST DESIGN AWARDS</h1>
+            <p style="text-align: justify">
+              Another instance of placeholder content for this other custom
+              component. It is intended to mimic what some real-world content
+              would look like, and we're using it here to give the component a
+              bit of body and size. Lorem ipsum dolor sit amet consectetur
+              adipisicing elit. Quidem molestias eius autem impedit reiciendis
+              animi quaerat ipsum voluptatibus? Eum dolorum eius ratione
+              consectetur molestiae saepe ab inventore ipsa magnam dolorem?
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum
+              dicta, distinctio non minima architecto voluptas libero. Quae
+              laborum vitae recusandae iste dignissimos rem voluptate cupiditate
+              dolorum repellendus sit! Fugiat, natus.
+            </p>
+          </div>
+          <div class="col-lg-5 mb-md-0 p-md-4 bg-info">
+            <div class="w-50 mx-auto">
+              <img
+                class="img-fluid"
+                src="images/7.png"
+                class="w-100"
+                alt="Award"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="container mt-3 px-4">
+      <div class="row">
+        <div class="col-12 col-md-9">
+          <p>2025 My Blog. All Right Reserved.</p>
+        </div>
+        <div class="col-12 col-md-3">
+          <ul class="list-inline text-md-end">
+            <li class="list-inline-item">
+              <a class="text-decoration-none" href="#">Terms & Conditions</a>
+            </li>
+            <li class="list-inline-item">
+              <a class="text-decoration-none" href="#">Privacy Policy</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
